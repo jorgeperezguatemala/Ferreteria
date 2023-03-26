@@ -1,0 +1,65 @@
+label {
+  display:inline-block;
+  width: 80px;}
+
+        form {
+  width: 400px;
+  padding: 1em;
+
+}
+
+input{
+  margin: 30 em;
+}
+input [type=chexbox]
+{
+align-items: end;
+}
+input,
+textarea {
+  font: 1em arial;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.guardar{
+  margin-left: 1em; 
+}
+
+.cancelar{
+  margin-left: 20em;
+}
+fieldset {
+  margin: auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+table,th,td{
+  border: 1px solid black;
+}
+th,td{
+  padding: 10px;
+}
+table{
+  margin:auto;
+  border-collapse: collapse;
+}
+
+
+div{
+    margin: auto;    
+}
